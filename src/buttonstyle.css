@@ -1,0 +1,23 @@
+button {
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 85%;
+    padding: 10%;
+    transition: 0.3s;
+    box-shadow: inset 0 0 5px 0.1px lavender;
+}
+
+button:hover {
+    background-color: white;
+    color: teal;
+    box-shadow: 0 0 5px 1px teal;
+    transform: scale(1.1);
+}
+
+.button {
+    width: 40%;
+    margin: 7px 0;
+    text-align: center;
+}
